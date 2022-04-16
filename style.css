@@ -85,14 +85,14 @@ html{
 }
 
 header {
-  width: 117%;
+  width: 118%;
   height: 100vh;
   overflow: hidden;
   position: relative;
 }
 
 .img-wrapper {
-  width: 100%;
+  width: 85%;
   height: 100%;
   overflow: hidden;
   background-color: rgba(0, 0, 0, 0.8);
@@ -305,7 +305,7 @@ header {
   
   .conhecimento:nth-child(6) {
     grid-column: 20 / 2;
-    grid-row: 27 / 19;
+    grid-row: 20 / 20;
   }
 }
 
@@ -356,6 +356,15 @@ header {
   justify-content: space-evenly;
   margin-bottom: 2rem;
 }
+
+@media screen and (max-width: 600px){
+  projetos{
+    float: none;
+    background-color: #a044ff;
+    vertical-align: top;
+  }
+}
+
 
 .card {
   width: 25rem;
@@ -640,7 +649,7 @@ footer{
 
 #link-topo{
   position: fixed;
-  right: 3rem;
+  right: 6rem;
   bottom: 1rem;
   width: 2rem;
   height: 2rem;
